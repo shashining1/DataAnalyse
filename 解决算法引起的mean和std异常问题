@@ -1,0 +1,6 @@
+algo 处理了所有来自于D:\work\implement\github\data-classification\All Data\data_beijing_20180710-0713\First label-classification result\first_label_normal_data的数据
+计算出每个病人的16ge参数的mean和std
+存在mean为零，std为零的情况（code错误）
+存在mean不为零，std为零的情况（添加了一个timeout功能）
+所有的测量参数都存在std很大的情况，逐一挑出解决
+上述的具体说明，请见D:\data\ClassifyByLiJia\tongji20180828（参数，详细的record）
